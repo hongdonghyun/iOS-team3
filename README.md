@@ -9,7 +9,7 @@
   - 언어: Swift
   - 프레임워크: UIKit,
   - 라이브러리: Alamofire, Kingfisher, SnapKit, SwiftLint, Then
-  - 협업 툴: Slakc, Notion, github Projects
+  - 협업 툴: Slack, Notion, github Projects
 - 인원: 4명
 - 기여도: 40%
 - 역할:
@@ -33,3 +33,4 @@
  [![Video](http://img.youtube.com/vi/bRYXommsyZU/0.jpg)](https://youtu.be/bRYXommsyZU)
 
 > 클릭시 유튜브로 이동합니다.
+
