@@ -105,7 +105,7 @@ extension AddProductCartViewController: AddProductCartViewDelegate {
     let selectedProducts = productList.productOptions.filter({ $0.quantity > 0 })
     
     guard !selectedProducts.isEmpty else {
-      KurlyNotification.shared.notification(text: "수량을 선택해주세요.")
+      KurlyNotification.shared.show(text: "수량을 선택해주세요.", type: .warning)
       
       return
     }
@@ -153,7 +153,7 @@ extension AddProductCartViewController: AddProductCartViewDelegate {
     }
     
     dismiss(animated: true) {
-      KurlyNotification.shared.notice(text: "장바구니에 상품이 담겼습니다.")
+      KurlyNotification.shared.show(text: "장바구니에 상품이 담겼습니다.", type: .notice)
     }
   }
   

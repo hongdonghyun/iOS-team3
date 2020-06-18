@@ -171,7 +171,7 @@ extension CategoryDetailCollectionViewCell {
           else { return }
         self.categoryProductList = list
       case .failure:
-        KurlyNotification.shared.notification(text: "잠시후 다시 시도해주세요.")
+        KurlyNotification.shared.show(text: "잠시후 다시 시도해주세요.", type: .warning)
       }
     }
   }

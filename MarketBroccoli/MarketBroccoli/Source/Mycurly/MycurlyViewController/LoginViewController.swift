@@ -92,7 +92,7 @@ extension LoginViewController: LoginViewDelegate {
             case .failure(let error):
               print(error.localizedDescription)
               let warning = KurlyNotification.shared
-              warning.notification(text: "아이디, 비밀번호를 확인해주세요.")
+              warning.show(text: "아이디, 비밀번호를 확인해주세요.", type: .warning)
 //              warning.notification(text: "아이디, 비밀번호를 확인해주세요.", textColor: .kurlyPurple1, backgroundColor: .white)
             }
         }

@@ -99,7 +99,7 @@ extension RecommendationView {
       case .success(let data):
         self.homeImageModel = data
       case .failure:
-        KurlyNotification.shared.notice(text: "잠시후 다시시도하세요.")
+        KurlyNotification.shared.show(text: "잠시후 다시시도하세요.", type: .warning)
       }
     }
     success()

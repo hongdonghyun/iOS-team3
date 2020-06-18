@@ -63,7 +63,7 @@ extension HomeRootView {
           category.reloadData()
         }
       case .failure:
-        KurlyNotification.shared.notification(text: "잠시후 다시 시도해주십시오.")
+        KurlyNotification.shared.show(text: "잠시후 다시 시도해주십시오.", type: .warning)
       }
     }
   }
